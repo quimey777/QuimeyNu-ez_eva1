@@ -1,43 +1,117 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Tarea de Quimey Nunez</title>
+    <meta charset="UTF-8">
+    <title>Ciberseguridad - Quimey Nuñez</title>
     <style>
-        /* CSS Basico */
+        /* Estilos modernos y limpios */
         body {
-            background-color: #f0f0f0;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+            max-width: 500px;
+            width: 90%;
             text-align: center;
-            font-family: Arial;
         }
-        .caja {
-            background-color: white;
-            border: 1px solid black;
-            width: 80%;
-            margin: auto;
+
+        h1 {
+            color: #1e3c72;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+
+        .linea {
+            height: 4px;
+            width: 60px;
+            background: #f2a154;
+            margin: 10px auto 25px;
+            border-radius: 2px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .box-consejos {
+            background: #f8f9fa;
+            border-radius: 12px;
             padding: 20px;
+            margin: 25px 0;
+            text-align: left;
+            border-left: 5px solid #1e3c72;
         }
-        img {
-            width: 300px;
+
+        ul {
+            padding-left: 20px;
+            margin: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #1e3c72;
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: 0.3s;
+            margin-top: 10px;
+        }
+
+        .btn:hover {
+            background: #f2a154;
+            transform: translateY(-2px);
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 12px;
+            color: #aaa;
+            text-transform: uppercase;
+            letter-spacing: 1px;
         }
     </style>
 </head>
 <body>
 
-    <div class="caja">
-        <h1>Tecnologia y Ciberseguridad</h1>
-        <p>Esta pagina es para enseñar sobre seguridad en internet.</p>
-
-        <img src="https://www.bing.com/images/search?view=detailV2&ccid=uZJ9ahTB&id=95B2959F7801CD872CDD41A460EA3834666F415A&thid=OIP.uZJ9ahTB6Z5-Q8DogmeOMAHaDt&mediaurl=https%3a%2f%2fnextware.com.ar%2fblog%2fwp-content%2fuploads%2f2025%2f02%2fcybersecurity_NicoElNino-AlamyStockPhoto-1280x640.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.b9927d6a14c1e99e7e43c0e882678e30%3frik%3dWkFvZjQ46mCkQQ%26pid%3dImgRaw%26r%3d0&exph=640&expw=1280&q=imagen+ciberseguridad&mode=overlay&FORM=IQFRBA&ck=5A4445D56932AFAEE592BEA713023231&selectedIndex=0&idpp=serp">
-
-        <h3>Consejos para estudiantes:</h3>
-        <p>1. No dar datos personales.</p>
-        <p>2. Usar contraseñas seguras.</p>
+    <div class="card">
+        <h1>Ciberseguridad</h1>
+        <div class="linea"></div>
         
-        <p>Para aprender mas visita el link:</p>
-        <a href="https://www.incibe.es/menores">Ver pagina de seguridad</a>
+        <p>Aprende a proteger tu identidad digital y navegar de forma segura en la red.</p>
 
-        <br><br>
-        <p>Creado por: <b>Quimey Nuñez</b></p>
+        <div class="box-consejos">
+            <strong>Recomendaciones clave:</strong>
+            <ul>
+                <li>Utiliza autenticación de dos pasos.</li>
+                <li>No hagas clic en correos sospechosos.</li>
+                <li>Mantén tu sistema operativo actualizado.</li>
+            </ul>
+        </div>
+
+        <a href="https://www.incibe.es" class="btn">Saber más</a>
+
+        <div class="footer">
+            Realizado por: <strong>Quimey Nuñez</strong>
+        </div>
     </div>
 
 </body>
